@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay.C | Technical Documentation Lead Engineer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 font-sans">
+
+  <header class="bg-gradient-to-r from-blue-900 to-purple-900 text-white text-center py-10 shadow-lg">
+    <h1 class="text-5xl font-extrabold">Vijay.C</h1>
+    <p class="text-xl mt-2">Lead Technical Writer | Technical Documentation Lead | Project Manager</p>
+    <p class="mt-4 text-sm">📧 <a href="mailto:cvijayindia@gmail.com" class="underline">cvijayindia@gmail.com</a> | 📞 +91-9092655148</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-10">
+    <section class="mb-12 bg-white p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-bold text-blue-800 mb-4">Career Snapshot</h2>
+      <p class="text-gray-700 text-lg">Over 9+ years of experience in Software, Aerospace, Oil & Gas, Healthcare and Automotive industries, specializing in Technical Publications, Project Management, and Agile-based development. Proven track record in authoring manuals, coordinating global teams, and driving customer satisfaction.</p>
+    </section>
+
+    <section class="mb-12 bg-purple-100 p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-bold text-purple-800 mb-4">Key Highlights</h2>
+      <ul class="list-disc list-inside text-gray-800 text-lg space-y-1">
+        <li>Expert in ATA100, S1000D, ispec 2200 standards</li>
+        <li>Expert in ASD-STE100, MSTP style guides</li>
+        <li>Experienced with tools like XML Editor (Oxygen), Adobe FrameMaker, Arbortext Epic Editor</li>
+        <li>Azure Devops, Jira, Power BI, Confluence, Creoview, Solidworks, Coral draw<li>
+        <li>Adobe photoshop, Canva</li>    
+        <li>Strong background in Proposal Writing and Customer Communications</li>
+        <li>Recognized with Spot Award, Star of the Month, and 9/10 CSAT Score</li>
+        <li>Managed teams for CMM/IPC documentation and ERP-integrated publication workflows</li>
+      </ul>
+    </section>
+
+    <section class="mb-12 bg-pink-100 p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-bold text-pink-800 mb-4">Professional Experience</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-2xl font-semibold">ALTEN India – Lead Engineer (2023–2025)</h3>
+          <p class="text-gray-700">Led tool deployment for diagnostics across continents, authored comprehensive user manuals and hosted video-based technical content on portals.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold">QuEST Global – Senior  (2019–2023)</h3>
+          <p class="text-gray-700">Created and managed IPC/CMM manual development projects, customer proposals, and ensured delivery quality under agile environments.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold">L&T Technology Services – Engineer (2017–2019)</h3>
+          <p class="text-gray-700">Documented Halliburton tools with SolidWorks inputs, performed quality reviews and earned awards for delivery excellence.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold">SDS Pvt. Ltd – Technical Writer/junior Business Analyst (2017–2017)</h3>
+          <p class="text-gray-700">Documented training materials, user manuals, and Software Requirement Specification (SRS)- NR, CR, BR documents have been created.</p>
+        </div>
+          <h3 class="text-2xl font-semibold"> (2017–2017)</h3>
+          <p class="text-gray-700"></p>
+        </div><h3 class="text-2xl font-semibold">Wipro Ltd – Associate Consultant (2016–2017)</h3>
+          <p class="text-gray-700">Revised and migrated Indian Airforce Fighter Aircrafts (MIRAGE2000, Su-25, 27) manuals from ispec2200 to IETM based on the customer’s inputs and as per 
+S1000D standards.</p>
+        </div>
+      </div>
+    </section>
+    <section class="mb-12 bg-white p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-bold text-blue-800 mb-4">Education and Certifications</h2>
+      <p class="text-lg text-gray-800 mb-2">🎓 B.E. Aerospace Engineering – Hindustan Institute of Technology, Coimbatore</p>
+      <ul class="list-disc list-inside text-gray-800">
+        <li>PMP® Certification – In Progress</li>
+        <li>Technical Publication and Design Certification</li>
+        <li>CATIA V5, Gemba Kaizen, 5S, Time Management</li>
+      </ul>
+    </section>
+
+    <section class="mb-12 bg-gradient-to-r from-yellow-100 to-red-100 p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-bold text-red-800 mb-4">Skills Proficiency</h2>
+      <canvas id="skillsChart" class="bg-white p-4 rounded-xl"></canvas>
+      <script>
+        const ctx = document.getElementById('skillsChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'radar',
+          data: {
+            labels: ['Technical Writing', 'Project Management', 'Agile/SDLC', 'Tools Expertise', 'Client Communication'],
+            datasets: [{
+              label: 'Proficiency (out of 10)',
+              data: [9, 9, 9, 9, 9],
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgba(255, 99, 132, 1)',
+              borderWidth: 2
+            }]
+          },
+          options: {
+            scales: {
+              r: {
+                suggestedMin: 0,
+                suggestedMax: 10
+              }
+            }
+          }
+        });
+      </script>
+    </section>
+  </main>
+
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p class="text-sm">© 2025 Vijay Chinnasamy — All rights reserved</p>
+  </footer>
+
+</body>
+</html>
